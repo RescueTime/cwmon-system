@@ -2,4 +2,4 @@
 Authors
 =======
 
-* Hank Gay - http://www.rescuetime.com/
+* Hank Gay - https://www.rescuetime.com/

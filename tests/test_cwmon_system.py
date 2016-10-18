@@ -12,9 +12,10 @@ from cwmon.cli import cwmon
 
 
 def _run_metric(name, *args):
-    """Run the named metric, passing ``args``, and return the results."""
     runner = CliRunner()
-    my_args = ['--dry-run', name]
+    my_args = ['--dry-run', 'system']
+    if name:
+        my_args.append(name)
     my_args.extend(args)
     return runner.invoke(cwmon, my_args)
 

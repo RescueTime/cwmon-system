@@ -31,7 +31,7 @@ from cwmon_system.metrics import ZombieProcessesMetric
 
 @click.group(chain=True)
 @click.pass_context
-def system(ctx, host, user, passwd, db, port):
+def system(ctx):
     """Group for system-level monitoring commands for ``cwmon``."""
     pass
 
