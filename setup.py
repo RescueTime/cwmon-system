@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='cwmon-system',
-    version='0.1.0',
+    version='0.5.0',
     license='BSD',
     description='A cwmon plugin for system-level monitoring.',
     long_description='%s\n%s' % (
