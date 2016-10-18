@@ -1,12 +1,12 @@
 [paths]
 source =
-   src/cwmon_mysql
-   */site-packages/cwmon_mysql
+   src/cwmon_system
+   */site-packages/cwmon_system
 
 [run]
 branch = True
 source =
-    cwmon_mysql
+    cwmon_system
     tests
 parallel = true
 
