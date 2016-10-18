@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/cwmon_system
+   */site-packages/cwmon_system
+
+[run]
+branch = True
+source =
+    cwmon_system
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
