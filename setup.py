@@ -61,7 +61,7 @@ setup(
     ],
     install_requires=[
         'click',
-        'cwmon >= 0.3.0',
+        'cwmon >= 0.5.0',
         'psutil',
     ],
     extras_require={
